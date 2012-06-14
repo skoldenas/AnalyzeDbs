@@ -149,6 +149,8 @@ namespace AnalyzeDbs.Klasser.Facades
 					AddStatisticFromDbs(dr, DatabaseName, "ACL_HISTORIK", "ANTAL_ACL_HISTORIK");
 					//Antal ACL historik detaljer
 					AddStatisticFromDbs(dr, DatabaseName, "ACL_HISTORIK_DETALJER", "ANTAL_ACL_HISTORIK_DETALJER");
+					//Detta är bara en testrad
+					AddStatisticFromDbs(dr, DatabaseName, "ACL_HISTORIK_DETALJER", "ANTAL_ACL_HISTORIK_DETALJER");
 					
 				}
 				dtDbsStats.Rows.Add(dr);
