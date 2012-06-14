@@ -20,7 +20,8 @@ namespace AnalyzeDbs.Klasser.Facades
 			omrHRM,
 			omrHist,
 			omrVersion,
-			omrACL
+			omrACL, 
+			omrTest
 		}
 
 		public FoAnalyseDatabasesOnServer(UserInfo userInfo)

@@ -24,6 +24,7 @@ namespace TestInfo2.Klasser.Facades.Sokning
 
 		public DataTable SorteradProjektLista()
 		{
+			StringBuilder sb2 = new StringBuilder();
 			StringBuilder sb = new StringBuilder();
 			sb.AppendLine("SELECT LOP_NR_PROJEKT ID , PROJEKT_ID + ' - ' + PROJEKTNAMN PROJEKT FROM BA_PROJEKT");
 			sb.AppendLine("WHERE AKTIV = 'J'");
